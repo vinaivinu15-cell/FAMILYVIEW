@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    
+    .site-container {
+        @apply bg-gray-900
+        w-screen h-screen;
+    }
+}
+
+body{
+    @apply bg-gray-900
+}
+
+*{
+    padding:0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #404040;
+    border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #171717;
+    border-radius: 0.2rem;
+}
